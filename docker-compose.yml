@@ -1,0 +1,44 @@
+version: "3"
+
+services:
+  alert-ca-poller:
+    image: alert-ca-worker:build
+    container_name: alert-ca-poller
+    build:
+      context: ./app
+      dockerfile: ../Dockerfile
+    volumes:
+      - /Volumes/Scratch/CALFIRE:/data
+    environment:
+      - WORKERS=20
+      - PYTHONUNBUFFERED=1
+    entrypoint: ["python", "alertca_get_images.py"]
+    command: ["--run-10s"]
+
+  alert-ca-poller-1m:
+    image: alert-ca-worker:build
+    container_name: alert-ca-poller-1m
+    build:
+      context: ./app
+      dockerfile: ../Dockerfile
+    volumes:
+      - /Volumes/Scratch/CALFIRE:/data
+    environment:
+      - WORKERS=20
+      - PYTHONUNBUFFERED=1
+    entrypoint: ["python", "alertca_get_images.py"]
+    command: ["--run-1m"]
+
+  alert-ca-poller-camdata:
+    image: alert-ca-worker:build
+    container_name: alert-ca-poller-camdata
+    build:
+      context: ./app
+      dockerfile: ../Dockerfile
+    volumes:
+      - /Volumes/Scratch/CALFIRE:/data
+    environment:
+      - WORKERS=5
+      - PYTHONUNBUFFERED=1
+    entrypoint: ["python", "alertca_get_images.py"]
+    command: ["--get-camdata"]

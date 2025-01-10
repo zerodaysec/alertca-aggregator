@@ -1,0 +1,164 @@
+---
+cameras:
+  # oct2024
+  - name: mobo-lospinos-n-color
+    fire: "airport"
+  - name: mobo-lospinos-n-mono
+    fire: "airport"
+  - name: mobo-lospinos-w-color
+    fire: "airport"
+  - name: mobo-lospinos-w-mono
+    fire: "airport"
+  - name: mobo-lospinos-e-color
+    fire: "airport"
+  - name: mobo-lospinos-e-mono
+    fire: "airport"
+  - name: mobo-lospinos-s-color
+    fire: "airport"
+  - name: mobo-lospinos-s-mono
+    fire: "airport"
+  - name: "Axis-MtnHighNorth1"
+    fire: "bridge"
+  - name: "Axis-MtnHighNorth2"
+    fire: "bridge"
+  - name: "Axis-MtnHighEast1"
+    fire: "bridge"
+  - name: "Axis-MtnHighEast2"
+    fire: "bridge"
+  - name: "Axis-MtnHighWest1"
+    fire: "bridge"
+  - name: "Axis-MtnHighWest2"
+    fire: "bridge"
+  - name: "Axis-Table1"
+    fire: "bridge"
+  - name: "Axis-Table2"
+    fire: "bridge"
+  - name: "Axis-RunningSprings1"
+    fire: "line"
+  - name: "Axis-RunningSprings2"
+    fire: "line"
+  - name: "Axis-KellerPeak1"
+    fire: "line"
+  - name: "Axis-KellerPeak2"
+    fire: "line"
+  - name: "Axis-MtDavid1"
+  - name: "Axis-MtDavid2"
+  - name: "Axis-HeapsPeak1"
+  - name: "Axis-HeapsPeak2"
+  - name: "Axis-SnowSummitWest"
+    fire: "line"
+  - name: "Axis-SnowSummitSouth"
+    fire: "line"
+  - name: "Axis-LakeviewBigBear1"
+    fire: "line"
+  - name: "Axis-PineMountainLA1"
+  - name: "Axis-Johnstone1"
+  - name: "Axis-StrawberryPeakArrowhead2"
+  - name: "Axis-SantiagoPeakCalOESN"
+    fire: "airport"
+  - name: "Axis-SantiagoPeakCalOESS"
+    fire: "airport"
+  - name: "Axis-SantiagoOne1"
+    fire: "airport"
+  - name: "Axis-SantiagoOne2"
+    fire: "airport"
+  - name: "Axis-UpperBellNorth"
+  - name: "Axis-UpperBellSouth"
+  - name: "Axis-UpperTalegaNorth"
+  - name: "Axis-Elsinore1"
+    fire: "airport"
+  - name: "Axis-Elsinore2"
+    fire: "airport"
+  #jan2025
+  - name: Axis-Arcadia1
+    fire: "jan"
+  - name: Axis-Arcadia2
+    fire: "jan"
+  - name: Axis-MtDisappointment1
+    fire: "jan"
+  - name: Axis-MtDisappointment2
+    fire: "jan"
+  - name: Axis-Lukens1
+    fire: "jan"
+  - name: Axis-Lukens2
+    fire: "jan"
+  - name: Axis-Westridge1
+    fire: "jan"
+  - name: Axis-Westridge2
+    fire: "jan"
+  - name: Axis-TopangaCanyon1
+    fire: "jan"
+  - name: Axis-TopangaCanyon2
+    fire: "jan"
+  - name: Axis-Hel69B
+    fire: "jan"
+  - name: Axis-Hel69BWest
+    fire: "jan"
+  - name: Axis-TemescalTrailhead1
+    fire: "jan"
+  - name: Axis-TemescalTrailhead2
+    fire: "jan"
+  - name: Axis-LasVirgenes1
+    fire: "jan"
+  - name: Axis-LasVirgenes2
+    fire: "jan"
+  - name: Axis-SanVicente1
+    fire: "jan"
+  - name: Axis-SanVicente2
+    fire: "jan"
+  - name: Axis-Canyonback1
+    fire: "jan"
+  - name: Axis-Canyonback2
+    fire: "jan"
+  - name: Axis-Gold1
+    fire: "jan"
+  - name: Axis-Gold2
+    fire: "jan"
+  - name: Axis-Arcadia1
+    fire: "jan"
+  - name: Axis-Arcadia2
+    fire: "jan"
+  - name: Axis-Harvard1
+    fire: "jan"
+  - name: Axis-Harvard2
+    fire: "jan"
+  - name: Axis-WilsonWest
+    fire: "jan"
+  - name: Axis-WilsonEast
+    fire: "jan"
+  - name: Axis-SierraOrange1
+    fire: "jan"
+  - name: Axis-SierraOrange2
+    fire: "jan"
+  - name: Axis-College1
+    fire: "jan"
+  - name: Axis-College2
+    fire: "jan"
+  - name: Axis-VerdugoPeak1
+    fire: "jan"
+  - name: Axis-VerdugoPeak2
+    fire: "jan"
+  - name: Axis-Sunset1
+    fire: "jan"
+  - name: Axis-Sunset2
+    fire: "jan"
+  - name: Axis-Lukens1
+    fire: "jan"
+  - name: Axis-Lukens2
+    fire: "jan"
+  - name: Axis-Saddle1
+    fire: "jan"
+  - name: Axis-Saddle2
+    fire: "jan"
+  - name: Axis-TopangaPeak1
+    fire: "jan"
+  - name: Axis-TopangaPeak2
+    fire: "jan"
+  - name: Axis-MtLeeN
+    fire: "jan"
+  - name: Axis-MtLeeS
+    fire: "jan"
+  - name: Axis-EncinalCanyon1
+    fire: "jan"
+  - name: Axis-EncinalCanyon2
+    fire: "jan"
