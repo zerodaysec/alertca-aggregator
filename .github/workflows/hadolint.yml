@@ -4,7 +4,7 @@ name: hadolint
 on: push
 
 env:
-    SVC_NAME: sk-python-example-app
+    SVC_NAME: altertca-aggregator
 
 jobs:
   hadolint:
