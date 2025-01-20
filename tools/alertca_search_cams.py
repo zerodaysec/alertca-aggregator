@@ -74,7 +74,7 @@ def main():
 
         counties.sort()
 
-        print(f"Counties:")
+        print("Counties:")
         for c in counties:
             if c != "":
                 print(f"- {c}")
